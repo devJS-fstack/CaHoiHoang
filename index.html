@@ -1,0 +1,1441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cá hồi hoang</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/font/fontawesome-free-5.15.4-web/css/all.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/font/themify-icon/themify-icons.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-iner">
+        <div class="header-wraper">
+          <div class="header-logo__wraper">
+            <a href="index.html" class="header-logo--link">
+              <img
+                src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/04/Logo-dark.png"
+                alt=""
+              />
+            </a>
+          </div>
+          <nav class="header-navigation">
+            <ul class="navigation-list">
+              <li class="navigation-item">
+                <a href="index.html" class="navigation-link">
+                  <span class="navigation-iner">
+                    <span class="navgation-text-home">Home</span>
+                  </span>
+                </a>
+              </li>
+              <li class="navigation-item">
+                <a href="tour.html" class="navigation-link">
+                  <span class="navigation-iner">
+                    <span class="navgation-text-tour">Tour</span>
+                  </span>
+                </a>
+              </li>
+              <li class="navigation-item">
+                <a href="about-us.html" class="navigation-link">
+                  <span class="navigation-iner">
+                    <span class="navgation-text-about">About Us</span>
+                  </span>
+                </a>
+              </li>
+              <li class="navigation-item">
+                <a href="store.html" class="navigation-link">
+                  <span class="navigation-iner">
+                    <span class="navgation-text-store">Store</span>
+                  </span>
+                </a>
+              </li>
+              <li class="navigation-item">
+                <a href="event.html" class="navigation-link">
+                  <span class="navigation-iner">
+                    <span class="navgation-text-event">Event List</span>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header-control">
+            <div class="header-control__icon">
+              <span class="short-code">
+                <a href="" class="control-link">
+                  <i class="control-icon fab fa-spotify"></i>
+                  <svg class="control-spotify svg-circle">
+                    <circle cx="50%" cy="50%" r="45%"></circle>
+                  </svg>
+                </a>
+              </span>
+            </div>
+            <div class="header-control__icon">
+              <span class="short-code">
+                <a href="" class="control-link">
+                  <i class="control-icon fab fa-soundcloud"></i>
+                  <svg class="control-sound svg-circle">
+                    <circle cx="50%" cy="50%" r="45%"></circle>
+                  </svg>
+                </a>
+              </span>
+            </div>
+            <div class="header-control__icon">
+              <span class="short-code">
+                <a href="" class="control-link">
+                  <i class="control-icon fab fa-youtube"></i>
+                  <svg class="svg-circle">
+                    <circle cx="50%" cy="50%" r="45%"></circle>
+                  </svg>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header-sticky"></div>
+    </header>
+    <div class="container">
+      <section class="container-section1">
+        <div class="slides">
+          <div class="slide">
+            <div class="container-content">
+              <div class="container-title">New Album</div>
+              <div class="container-discription">
+                Welcom to CaHoiHoang, your new website and place where your
+                turns come first
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-section1__bottom">
+          <div class="section1__avatar">
+            <img
+              class="avatar-band"
+              src="/Project_CHH/source/assets/img/Pose.jpg"
+              alt=""
+            />
+          </div>
+          <div class="section1__bottom-iner">
+            <div class="section1__bottom--heading">
+              <h4>The Band</h4>
+            </div>
+            <div class="section1__bottom--middle">
+              <div class="section1__saperate"></div>
+              <div class="section1-time">
+                <span class="current-time">00:00</span>
+                /
+                <span class="duration-time">00:31</span>
+              </div>
+              <div class="section1-control__music">
+                <i
+                  class="control-left control-icon ti-control-skip-backward"
+                ></i>
+                <i class="control-play control-icon ti-control-play"></i>
+                <i class="control-right ti-control-skip-forward"></i>
+              </div>
+              <div class="section1-control__volumn">
+                <audio id="my-audio">
+                  <source
+                    src="./assets/audio/audio1.mp3"
+                    type="audio/mpeg"
+                  />
+                </audio>
+                <i class="volume-icon fas fa-volume-up"></i>
+                <div class="sound-control">
+                  <input
+                    type="range"
+                    min="1"
+                    max="100"
+                    value="90"
+                    class="volumn-slider"
+                    oninput="volume_change()"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="section1__bottom--footer">
+              <span>Ca Hoi Hoang</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="container2">
+      <div class="container2__content">
+        <div class="container2-title">
+          <h2>Our Discography</h2>
+          <span
+            >Lorem Ipsum rhis ts toshhoop svetsgin. Proin gravida nibh lorem
+            quis bibendum aucto</span
+          >
+        </div>
+      </div>
+    </div>
+    <div class="container3">
+      <div class="container3-content">
+        <div class="content-column">
+          <div class="content-row">
+            <div class="grid-iner">
+              <div class="grid-item">
+                <div class="grid-item__iner">
+                  <div class="grid-img">
+                    <img
+                      src="./assets/img/galary/galary1.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="grid-heading">
+                    <h3>Thang Nam</h3>
+                  </div>
+                  <div class="grid-discription">Ca Hoi Hoang</div>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div class="grid-item__iner">
+                  <div class="grid-img">
+                    <img
+                      src="./assets/img/galary/galary2.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="grid-heading">
+                    <h3>Thang Nam</h3>
+                  </div>
+                  <div class="grid-discription">Ca Hoi Hoang</div>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div class="grid-item__iner">
+                  <div class="grid-img">
+                    <img
+                      src="./assets/img/galary/galary6.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="grid-heading">
+                    <h3>Thang Nam</h3>
+                  </div>
+                  <div class="grid-discription">Ca Hoi Hoang</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content-column">
+          <div class="content-row">
+            <div class="grid-iner">
+              <div class="grid-item">
+                <div class="grid-item__iner">
+                  <div class="grid-img">
+                    <img
+                      src="./assets/img/galary/galary3.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="grid-heading">
+                    <h3>Thang Nam</h3>
+                  </div>
+                  <div class="grid-discription">Ca Hoi Hoang</div>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div class="grid-item__iner">
+                  <div class="grid-img">
+                    <img
+                      src="./assets/img/galary/galary5.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="grid-heading">
+                    <h3>Thang Nam</h3>
+                  </div>
+                  <div class="grid-discription">Ca Hoi Hoang</div>
+                </div>
+              </div>
+              <div class="grid-item">
+                <div class="grid-item__iner">
+                  <div class="grid-img">
+                    <img
+                      src="./assets/img/galary/galary4.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="grid-heading">
+                    <h3>Thang Nam</h3>
+                  </div>
+                  <div class="grid-discription">Ca Hoi Hoang</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container4">
+      <div class="container4__iner">
+        <div class="container4-item">
+          <a href="" class="container4-link">
+            <span>View More</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="container5">
+      <div class="container5-up">
+        <div class="container5-up-coming">
+          <span>U</span>
+          <span>p</span>
+          <span>c</span>
+          <span>o</span>
+          <span>m</span>
+          <span>i</span>
+          <span>n</span>
+          <span>g</span>
+        </div>
+        <div class="container5__iner">
+          <div class="container5-time">
+            <ul class="container5-time__list">
+              <li class="container5-time__item">
+                <h1>12</h1>
+                <span>Days</span>
+              </li>
+              <li class="container5-time__item">
+                <h1>06</h1>
+                <span>Hours</span>
+              </li>
+              <li class="container5-time__item">
+                <h1 class="minute-time">15</h1>
+                <span">Minutes</span>
+              </li>
+              <li class="container5-time__item">
+                <h1 class="second-time">37</h1>
+                <span>Seconds</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container6">
+      <div class="container6__content">
+        <div class="container6-title">
+          <h2>Upcoming Tour</h2>
+          <span
+            >Lorem Ipsum rhis ts toshhoop svetsgin. Proin gravida nibh lorem
+            quis bibendum aucto</span
+          >
+        </div>
+      </div>
+    </div>
+    <div class="container-main">
+      <div class="container-iner">
+        <ul class="container-list">
+          <li class="container-item">
+            <div class="container-item__time">
+              <span>29 May</span>
+            </div>
+            <div class="container-item__text">
+              <div class="item__heading">West Europe Tour</div>
+              <div class="item__discription">Colosseum, Italy</div>
+            </div>
+            <div class="container-item__button">
+              <span>Buy Ticket</span>
+            </div>
+          </li>
+          <li class="container-item">
+            <div class="container-item__time">
+              <span>29 May</span>
+            </div>
+            <div class="container-item__text">
+              <div class="item__heading">West Europe Tour</div>
+              <div class="item__discription">Colosseum, Italy</div>
+            </div>
+            <div class="container-item__button">
+              <span>Buy Ticket</span>
+            </div>
+          </li>
+          <li class="container-item">
+            <div class="container-item__time">
+              <span>29 May</span>
+            </div>
+            <div class="container-item__text">
+              <div class="item__heading">West Europe Tour</div>
+              <div class="item__discription">Colosseum, Italy</div>
+            </div>
+            <div class="container-item__button">
+              <span>Buy Ticket</span>
+            </div>
+          </li>
+          <li class="container-item">
+            <div class="container-item__time">
+              <span>29 May</span>
+            </div>
+            <div class="container-item__text">
+              <div class="item__heading">West Europe Tour</div>
+              <div class="item__discription">Colosseum, Italy</div>
+            </div>
+            <div class="container-item__button">
+              <span>Buy Ticket</span>
+            </div>
+          </li>
+          <li class="container-item">
+            <div class="container-item__time">
+              <span>29 May</span>
+            </div>
+            <div class="container-item__text">
+              <div class="item__heading">West Europe Tour</div>
+              <div class="item__discription">Colosseum, Italy</div>
+            </div>
+            <div class="container-item__button">
+              <span>Buy Ticket</span>
+            </div>
+          </li>
+          <li class="container-item">
+            <div class="container-item__time">
+              <span>29 May</span>
+            </div>
+            <div class="container-item__text">
+              <div class="item__heading">West Europe Tour</div>
+              <div class="item__discription">Colosseum, Italy</div>
+            </div>
+            <div class="container-item__button">
+              <span>Buy Ticket</span>
+            </div>
+          </li>
+          <li class="container-item">
+            <div class="container-item__time">
+              <span>29 May</span>
+            </div>
+            <div class="container-item__text">
+              <div class="item__heading">West Europe Tour</div>
+              <div class="item__discription">Colosseum, Italy</div>
+            </div>
+            <div class="container-item__button">
+              <span>Buy Ticket</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container-pinterest">
+      <div class="container-pinterest__iner">
+        <div class="container-pinterest-item-first">
+          <div class="pinterest-item__iner">
+            <div class="pinterest-item__img">
+              <img
+                src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/02/main-img-gallery-1.jpg"
+                alt=""
+              />
+            </div>
+            <div class="pinterest-item__text">
+              <h4>The Stronger Band</h4>
+              <span>Strongers</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="container-pinterest-item-first"
+          style="position: absolute; left: 25%; top: 0px; height: 345px"
+        >
+          <div class="pinterest-item__iner">
+            <div class="pinterest-item__img">
+              <img
+                src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/02/main-img-gallery-5.jpg"
+                alt=""
+              />
+            </div>
+            <div class="pinterest-item__text">
+              <h4>The Stronger Band</h4>
+              <span>Strongers</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="container-pinterest-item-first"
+          style="position: absolute; left: 50%; top: 0px; height: 710px"
+        >
+          <div class="pinterest-item__iner">
+            <div class="pinterest-item__img">
+              <img
+                src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/02/main-img-gallery-4-650x1300.jpg"
+                alt=""
+              />
+            </div>
+            <div class="pinterest-item__text">
+              <h4>The Stronger Band</h4>
+              <span>Strongers</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="container-pinterest-item-first"
+          style="position: absolute; left: 75%; top: 0; height: 345px"
+        >
+          <div class="pinterest-item__iner">
+            <div class="pinterest-item__img">
+              <img
+                src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/02/Pinterest-list-img-2.jpg"
+                alt=""
+              />
+            </div>
+            <div class="pinterest-item__text">
+              <h4>The Stronger Band</h4>
+              <span>Strongers</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="container-pinterest-item-first"
+          style="
+            position: absolute;
+            left: 0;
+            top: 365px;
+            height: 345px;
+            width: 50%;
+          "
+        >
+          <div class="pinterest-item__iner">
+            <div class="pinterest-item__img">
+              <img
+                src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/02/main-img-gallery-8-1300x650.jpg"
+                alt=""
+              />
+            </div>
+            <div class="pinterest-item__text">
+              <h4>The Stronger Band</h4>
+              <span>Strongers</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="container-pinterest-item-first"
+          style="position: absolute; left: 75%; top: 365px; height: 345px"
+        >
+          <div class="pinterest-item__iner">
+            <div class="pinterest-item__img">
+              <img
+                src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/02/main-img-gallery-3.jpg"
+                alt=""
+              />
+            </div>
+            <div class="pinterest-item__text">
+              <h4>The Stronger Band</h4>
+              <span>Strongers</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- List Music -->
+    <div class="container-list-music">
+      <div class="container-list-music__iner">
+        <div class="container-list-music-row">
+          <div class="container-list-music-column">
+            <div class="container-list-music-column__iner">
+              <div class="music-column-item">
+                <!-- Background -->
+                <div class="music-column__background">
+                  <img
+                    src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/02/atist-image-8.jpg"
+                    alt=""
+                  />
+                  <div class="music-column__background--content">
+                    <h4 class="author">Neon Blue</h4>
+                    <p class="discription">Electro-pop Artist</p>
+                  </div>
+                </div>
+                <!-- List -->
+                <li class="music-track">
+                  <div class="music-cd">
+                    <i class="fas fa-compact-disc"></i>
+                  </div>
+                  <div class="music-heading">
+                    <h5 class="music-title" title="Click to play">
+                      <span>1. </span>
+                      <span>Frau Power</span>
+                    </h5>
+                    <span class="music-info">Loreum Upsum</span>
+                  </div>
+                  <div class="music-action">
+                    <span class="track-length">00:18</span>
+                    <i class="action-dowload ti-download"></i>
+                    <i class="action-play ti-control-play"></i>
+                  </div>
+                </li>
+                <li class="music-track">
+                  <div class="music-cd">
+                    <i class="fas fa-compact-disc"></i>
+                  </div>
+                  <div class="music-heading">
+                    <h5 class="music-title" title="Click to play">
+                      <span>2. </span>
+                      <span>Black Hole Sun</span>
+                    </h5>
+                    <span class="music-info">Erit mi Pulvinar</span>
+                  </div>
+                  <div class="music-action">
+                    <span class="track-length">00:21</span>
+                    <i class="action-dowload ti-download"></i>
+                    <i class="action-play ti-control-play"></i>
+                  </div>
+                </li>
+                <li class="music-track">
+                  <div class="music-cd">
+                    <i class="fas fa-compact-disc"></i>
+                  </div>
+                  <div class="music-heading">
+                    <h5 class="music-title" title="Click to play">
+                      <span>3. </span>
+                      <span>Memories</span>
+                    </h5>
+                    <span class="music-info">Pulvinar Tristiq</span>
+                  </div>
+                  <div class="music-action">
+                    <span class="track-length">00:15</span>
+                    <i class="action-dowload ti-download"></i>
+                    <i class="action-play ti-control-play"></i>
+                  </div>
+                </li>
+                <li class="music-track">
+                  <div class="music-cd">
+                    <i class="fas fa-compact-disc"></i>
+                  </div>
+                  <div class="music-heading">
+                    <h5 class="music-title" title="Click to play">
+                      <span>4. </span>
+                      <span>Paraoina Overflow</span>
+                    </h5>
+                    <span class="music-info">Elit Conse</span>
+                  </div>
+                  <div class="music-action">
+                    <span class="track-length">00:49</span>
+                    <i class="action-dowload ti-download"></i>
+                    <i class="action-play ti-control-play"></i>
+                  </div>
+                </li>
+                <li class="music-track">
+                  <div class="music-cd">
+                    <i class="fas fa-compact-disc"></i>
+                  </div>
+                  <div class="music-heading">
+                    <h5 class="music-title" title="Click to play">
+                      <span>5. </span>
+                      <span>Last Smile</span>
+                    </h5>
+                    <span class="music-info">Duis Sued</span>
+                  </div>
+                  <div class="music-action">
+                    <span class="track-length">0:33</span>
+                    <i class="action-dowload ti-download"></i>
+                    <i class="action-play ti-control-play"></i>
+                  </div>
+                </li>
+                <li class="music-track">
+                  <div class="music-cd">
+                    <i class="fas fa-compact-disc"></i>
+                  </div>
+                  <div class="music-heading">
+                    <h5 class="music-title" title="Click to play">
+                      <span>6. </span>
+                      <span>Blue Ghost</span>
+                    </h5>
+                    <span class="music-info">Proin gravi</span>
+                  </div>
+                  <div class="music-action">
+                    <span class="track-length">00:29</span>
+                    <i class="action-dowload ti-download"></i>
+                    <i class="action-play ti-control-play"></i>
+                  </div>
+                </li>
+                <li class="music-track">
+                  <div class="music-cd">
+                    <i class="fas fa-compact-disc"></i>
+                  </div>
+                  <div class="music-heading">
+                    <h5 class="music-title" title="Click to play">
+                      <span>7. </span>
+                      <span>Broken Song</span>
+                    </h5>
+                    <span class="music-info">Loreum Upsum</span>
+                  </div>
+                  <div class="music-action">
+                    <span class="track-length">00:30</span>
+                    <i class="action-dowload ti-download"></i>
+                    <i class="action-play ti-control-play"></i>
+                  </div>
+                </li>
+                <li class="music-track">
+                  <div class="music-cd">
+                    <i class="fas fa-compact-disc"></i>
+                  </div>
+                  <div class="music-heading">
+                    <h5 class="music-title" title="Click to play">
+                      <span>8. </span>
+                      <span>Go To The Moon</span>
+                    </h5>
+                    <span class="music-info">The Weeknd</span>
+                  </div>
+                  <div class="music-action">
+                    <span class="track-length">00:58</span>
+                    <i class="action-dowload ti-download"></i>
+                    <i class="action-play ti-control-play"></i>
+                  </div>
+                </li>
+              </div>
+            </div>
+          </div>
+          <div class="container-list-music-column">
+            <div class="music-column-right">
+              <div class="music-column-right__iner">
+                <div class="column-right-grid">
+                  <li class="column-right-item">
+                    <div class="column-right-item__iner">
+                      <div class="column-right-item__content">
+                        <h4 class="name-title">Spotify On Stage</h4>
+                        <div class="column-right-item__rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                        <p class="rating-text">
+                          Lorem Ipsum rhis ts toshhoop svetsgin. Proin gravida
+                          nibh lorem proyuva.
+                        </p>
+                        <div class="rating-img">
+                          <img
+                            src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/02/main-team-img-1.png"
+                            alt=""
+                          />
+                        </div>
+                        <p class="rating-author">Lisa Turmov</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="column-right-item">
+                    <div class="column-right-item__iner">
+                      <div class="column-right-item__content">
+                        <h4 class="name-title">Spotify On Stage</h4>
+                        <div class="column-right-item__rating">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="far fa-star"></i>
+                          <i class="far fa-star"></i>
+                        </div>
+                        <p class="rating-text">
+                          Lorem Ipsum rhis ts toshhoop svetsgin. Proin gravida
+                          nibh lorem proyuva.
+                        </p>
+                        <div class="rating-img">
+                          <img
+                            src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/02/main-team-img-2.png"
+                            alt=""
+                          />
+                        </div>
+                        <p class="rating-author">Lisa Turmov</p>
+                      </div>
+                    </div>
+                  </li>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-list-brand">
+      <div class="list-brand__iner">
+        <div class="list-brand-item">
+          <div class="list-brand-item__iner">
+            <img
+              src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/03/Client-light-img-7-H.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="list-brand-item">
+          <div class="list-brand-item__iner">
+            <img
+              src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/03/Client-light-img-6-H.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="list-brand-item">
+          <div class="list-brand-item__iner">
+            <img
+              src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/03/Client-light-img-5-H.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="list-brand-item">
+          <div class="list-brand-item__iner">
+            <img
+              src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/03/Client-light-img-4-H.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="list-brand-item">
+          <div class="list-brand-item__iner">
+            <img
+              src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/03/Client-light-img-3-H.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="list-brand-item">
+          <div class="list-brand-item__iner">
+            <img
+              src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/03/Client-light-img-2-H.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="list-brand-item">
+          <div class="list-brand-item__iner">
+            <img
+              src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/03/Client-light-img-1-H.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="list-brand-item">
+          <div class="list-brand-item__iner">
+            <img
+              src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/03/Client-light-img-8-H.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slider-video">
+      <div class="slider-video__inner">
+        <div class="slider-list">
+          <div class="slider-item">
+            <img
+              src="https://www.ladygaga.com/sites/g/files/aaj13781/f/styles/suzuki_breakpoints_image_tablet_2x_16x9/public/media-youtube/qyJ5gvqBSgo.jpg?itok=Zuga78D2"
+              alt=""
+            />
+            <div class="btn-watch">
+              <div href="#" class="btn-link">Watch</div>
+            </div>
+          </div>
+        </div>
+        <iframe
+          class="iframe-video"
+          width="1280"
+          height="720"
+          src="https://www.youtube.com/embed/58IkVCh3hWU"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <!-- Music Blog -->
+    <div class="container7">
+        <div class="container6__content">
+          <div class="container6-title">
+            <h2>Music Blog</h2>
+            <span
+              >Lorem Ipsum rhis ts toshhoop svetsgin. Proin gravida nibh lorem
+              quis bibendum aucto</span
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="music-blog">
+          <div class="music-blog__iner">
+              <div class="music-blog-item">
+                  <div class="music-blog-item__iner">
+                      <div class="music-blog-img">
+                      </div>
+                  </div>
+              </div>
+              <div class="music-blog-item" style="position: absolute;
+              left: 0%;
+              top: 419.987px;">
+                <div class="music-blog-item__iner standard ">
+                    <div class="music-blog-img__standard bgr-none ">
+                        <img class="img-standard"src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/02/Pinterest-list-img-4.jpg" alt="">
+                    </div>
+                    <div class="music-blog__content">
+                        <div class="music-blog__heading">
+                            <h4>December 20,2021</h4>
+                        </div>
+                        <div class="music-blog__text">
+                            <p>This Is Super Post tempor elit incididunt labore magna aliquaest.</p>
+                        </div>
+                        <div class="music-blog__author">
+                            <div class="author-avt">
+                                <img src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/02/Admin-img-5-100x100.png" alt="">
+
+                            </div>
+                            <h4 class="name-author">By Heather Green</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="music-blog-item" style="position: absolute;
+            left: 33.3323%;
+            top: 0;
+            width: 35%;
+    height: 120%;">
+              <div class="music-blog-item__iner standard ">
+                  <div class="music-blog-img__standard bgr-none ">
+                      <img class="img-standard"src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/02/Pinterest-list-img-2.jpg" alt="">
+                  </div>
+                  <div class="music-blog__content">
+                      <div class="music-blog__heading">
+                          <h4>December 20,2021</h4>
+                      </div>
+                      <div class="music-blog__text">
+                          <p>This Is Super Post tempor elit incididunt labore magna aliquaest.</p>
+                      </div>
+                      <div class="music-blog__author">
+                          <div class="author-avt">
+                              <img src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/02/Admin-img-3-100x100.png" alt="">
+
+                          </div>
+                          <h4 class="name-author">By Heather Green</h4>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="music-blog-item" style="position: absolute;
+          left: 66.6646%;
+          top: 0;">
+            <div class="music-blog-item__iner standard ">
+                <div class="music-blog-img__standard bgr-none ">
+                    <img class="img-standard"src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/02/Pinterest-list-img-3.jpg" alt="">
+                </div>
+                <div class="music-blog__content">
+                    <div class="music-blog__heading">
+                        <h4>December 20,2021</h4>
+                    </div>
+                    <div class="music-blog__text">
+                        <p>This Is Super Post tempor elit incididunt labore magna aliquaest.</p>
+                    </div>
+                    <div class="music-blog__author">
+                        <div class="author-avt">
+                            <img src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/02/Admin-img-2-100x100.png" alt="">
+
+                        </div>
+                        <h4 class="name-author">By Heather Green</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="music-blog-item" style="position: absolute;
+        left: 33.3323%;
+        top: 629.013px;">
+          <div class="music-blog-item__iner standard ">
+              <div class="music-blog-img__standard bgr-none ">
+                  <img class="img-standard"src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/03/Pinterest-list-img-11.jpg" alt="">
+              </div>
+              <div class="music-blog__content">
+                  <div class="music-blog__heading">
+                      <h4>December 20,2021</h4>
+                  </div>
+                  <div class="music-blog__text">
+                      <p>This Is Super Post tempor elit incididunt labore magna aliquaest.</p>
+                  </div>
+                  <div class="music-blog__author">
+                      <div class="author-avt">
+                          <img src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/02/Admin-img-4-100x100.png" alt="">
+
+                      </div>
+                      <h4 class="name-author">By Heather Green</h4>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="music-blog-item" style="    position: absolute;
+      left: 66.6646%;
+      top: 544.938px;
+      ">
+        <div class="music-blog-item__iner">
+            <div class="music-blog-img" style="background-image: url(https://neobeat.qodeinteractive.com/wp-content/uploads/2020/02/Pinterest-list-img-6.png);">
+            </div>
+        </div>
+    </div>
+          </div>
+      </div>
+    
+    <a href="#" class="back-to-top">
+      <span class="back-to-top__label">Back to top</span>
+      <span class="back-to-top__icon">
+        <i class="ti-angle-right"></i>
+      </span>
+    </a>
+  </body>
+  <script>
+    const arrImg = [
+      "/Project_CHH/source/assets/img/sdf.png",
+      "/Project_CHH/source/assets/img/sdf2.png",
+      "/Project_CHH/source/assets/img/sdf3.png",
+    ];
+    var imgClass = document.querySelector(".slide");
+    var title = document.querySelector(".container-title");
+    var i = 0;
+    function slideShow_auto() {
+      imgClass.style.backgroundImage = `url(${arrImg[i]})`;
+      if (i == 0) title.innerHTML = "New Album";
+      if (i == 1) title.innerHTML = "Your Sound";
+      else if (i == 2) {
+        title.innerHTML = "Best Beats";
+      }
+      i++;
+      if (i == arrImg.length) i = 0;
+    }
+    setInterval(slideShow_auto, 3000);
+  </script>
+  <script>
+    var audio = document.getElementById("my-audio");
+    const playControl = document.querySelector(".control-play");
+    const curTime = document.querySelector(".current-time");
+    const durTime = document.querySelector('.duration-time');
+    const controlLeft = document.querySelector(".control-left");
+    const controlRight = document.querySelector(".control-right");
+    const avt = document.querySelector(".avatar-band");
+
+    let isPlaying = false;
+    const musics = [
+      {
+        path: "./assets/audio/audio1.mp3",
+        pathImg: "/Project_CHH/source/assets/img/Pose.jpg",
+        singer: "Ca Hoi Hoang",
+      },
+      {
+        path: "./assets/audio/audio2.mp3",
+        pathImg:
+          "./assets/img/cd/cd1.jpg",
+        singer: "Ca Hoi Hoang",
+      },
+      {
+        path: "./assets/audio/audio3.mp3",
+        pathImg:
+          "./assets/img/cd/cd2.jpg",
+        singer: "Ca Hoi Hoang",
+      },
+      {
+        path: "./assets/audio/audio4.mp3",
+        pathImg:
+          "./assets/img/cd/cd3.jpg",
+        singer: "Ca Hoi Hoang",
+      },
+      {
+        path: "./assets/audio/audio5.mp3",
+        pathImg:
+          "./assets/img/cd/cd10.jpg",
+        singer: "Ca Hoi Hoang",
+      },
+      {
+        path: "./assets/audio/audio6.mp3",
+        pathImg:
+          "./assets/img/cd/cd5.jpg",
+        singer: "Ca Hoi Hoang",
+      },
+      {
+        path: "./assets/audio/audio7.mp3",
+        pathImg:
+          "./assets/img/cd/cd6.jpg",
+        singer: "Ca Hoi Hoang",
+      },
+      {
+        path: "./assets/audio/audio8.mp3",
+        pathImg:
+          "./assets/img/cd/cd7.png",
+        singer: "Ca Hoi Hoang",
+      },
+      {
+        path: "./assets/audio/audio9.mp3",
+        pathImg:
+          "./assets/img/cd/cd8.jpg",
+        singer: "Ca Hoi Hoang",
+      },
+      {
+        path: "./assets/audio/audio10.mp3",
+        pathImg:
+          "./assets/img/cd/cd9.jpg",
+        singer: "Ca Hoi Hoang",
+      },
+    ];
+    let indexAudio = 0;
+    function loadAudio(indexAudio) {
+      audio.src = musics[indexAudio].path;
+      avt.src = musics[indexAudio].pathImg;
+      audio.load();
+    }
+
+    function audioPlay(indexAudio) {
+      if (isPlaying == false) playAudio(indexAudio);
+      else pauseAudio(indexAudio);
+    }
+
+    function playAudio(indexAudio) {
+      loadAudio(indexAudio);
+      playControl.classList.add("ti-control-pause");
+      playControl.classList.remove("ti-control-play");
+      avt.style.animation = "rotateAround 10s linear infinite";
+      isPlaying = true;
+      audio.play();
+    }
+
+    function pauseAudio(indexPlay) {
+      playControl.classList.remove("ti-control-pause");
+      playControl.classList.add("ti-control-play");
+      avt.style.animation = "none";
+      curTime.innerHTML = `00:00`;
+      isPlaying = false;
+      audio.pause();
+    }
+
+    playControl.onclick = function () {
+      audioPlay(indexAudio);
+    };
+    let secondDur = audio.duration.toFixed(0);
+    controlRight.onclick = function () {
+      if (indexAudio == musics.length - 1) {
+        isPlaying = false;
+        indexAudio = 0;
+        audioPlay(indexAudio);
+
+      } else {
+        isPlaying = false;
+        indexAudio++;
+        audioPlay(indexAudio);
+      }
+    };
+    controlLeft.onclick = function () {
+      if (indexAudio == 0) {
+        isPlaying = false;
+        indexAudio = musics.length - 1;
+        audioPlay(indexAudio);
+      } else {
+        isPlaying = false;
+        indexAudio--;
+        audioPlay(indexAudio);
+      }
+    };
+
+    //         Sound Audio
+    const recent_volumn = document.querySelector(".volumn-slider");
+
+    function volume_change() {
+      audio.volume = recent_volumn.value / 100;
+    }
+    const volumnControl = document.querySelector(".volume-icon");
+    var muteVolume = true;
+    var volumeValue;
+    function muteAudio() {
+      if (muteVolume) {
+        muteVolume = false;
+        volumnControl.classList.remove("fa-volume-up");
+        volumnControl.classList.add("fa-volume-mute");
+        volumeValue = recent_volumn.value;
+        audio.volume = 0;
+        recent_volumn.value = 0;
+      } else {
+        muteVolume = true;
+        volumnControl.classList.add("fa-volume-up");
+        volumnControl.classList.remove("fa-volume-mute");
+        audio.volume = volumeValue / 100;
+        recent_volumn.value = volumeValue;
+      }
+    }
+    volumnControl.onclick = function () {
+      muteAudio();
+    };
+
+    // Update time
+
+    audio.ontimeupdate = function () {
+      let progress = audio.currentTime.toFixed(0);
+      if (progress < 10) {
+        curTime.innerHTML = `00:0${progress}`;
+      } else {
+        curTime.innerHTML = `00:${progress}`;
+      }
+
+      // update icon and current time
+      if (audio.currentTime === audio.duration) {
+        if (indexAudio == musics.length - 1) {
+          isPlaying = false;
+          indexAudio = 0;
+          audioPlay(indexAudio);
+        } else {
+          isPlaying = false;
+          indexAudio++;
+          audioPlay(indexAudio);
+        }
+      }
+
+    };
+    audio.onloadedmetadata = function() {
+        let secondDur = audio.duration.toFixed(0);
+      if(secondDur!=NaN){
+      if (secondDur < 10 && secondDur >= 0 ) {
+        durTime.innerHTML = `00:0${secondDur}`;
+      } else if(secondDur >= 10 ) {
+        durTime.innerHTML = `00:${secondDur}`;
+      }
+    }  
+};
+  </script>
+  <!-- Scroll upcoming -->
+  <script>
+    const upComing = document.querySelector(".container5-up-coming");
+    let delay = 0.2;
+    window.addEventListener("scroll", () => {
+      const currentScroll = window.pageYOffset;
+      if (currentScroll > 1428) {
+        upComing.style.display = "flex";
+      } else {
+        upComing.style.display = "none";
+      }
+    });
+  </script>
+  <!-- Scroll back to top -->
+  <script>
+    const back = document.querySelector(".back-to-top");
+
+    window.addEventListener("scroll", () => {
+      if (window.pageYOffset > 600) {
+        back.classList.add("back-on");
+        back.classList.remove("back-off");
+        back.style.opacity = "1";
+      } else {
+        back.classList.add("back-off");
+        back.classList.remove("back-on");
+        back.style.opacity = "0";
+      }
+    });
+    back.addEventListener("click", backToTop);
+    function backToTop() {
+      window.scrollTo(0, 0);
+    }
+  </script>
+
+  <!-- Play list track -->
+  <script>
+    let isPlay = false;
+    const track = document.createElement("audio");
+    var indexPlay = 0;
+    let songs = [
+      {
+        path: "./assets/audio/audio1.mp3",
+      },
+      {
+        path: "./assets/audio/audio2.mp3",
+      },
+      {
+        path: "./assets/audio/audio3.mp3",
+      },
+      {
+        path: "./assets/audio/audio4.mp3",
+      },
+      {
+        path: "./assets/audio/audio5.mp3",
+      },
+      {
+        path: "./assets/audio/audio6.mp3",
+      },
+      {
+        path: "./assets/audio/audio7.mp3",
+      },
+      {
+        path: "./assets/audio/audio8.mp3",
+      },
+      {
+        path: "./assets/audio/audio9.mp3",
+      },
+      {
+        path: "./assets/audio/audio10.mp3",
+      },
+    ];
+
+    function loadTrack(indexPlay) {
+      track.src = songs[indexPlay].path;
+      track.load();
+    }
+    function justPlay(indexPlay, indexPre) {
+      if (isPlay == false) playSong(indexPlay, indexPre);
+      else pauseSong(indexPre);
+    }
+    let headings = document.querySelectorAll(".music-title");
+    let musicList = document.querySelectorAll(".music-track");
+    let actionPlay = document.querySelectorAll(".action-play");
+    let musicCD = document.querySelectorAll(".music-cd");
+    function playSong(indexPlay, indexPre) {
+      loadTrack(indexPlay);
+      isPlay = true;
+      track.play();
+      musicList[indexPlay].style.backgroundColor = "#fff";
+      actionPlay[indexPlay].classList.add("ti-control-pause");
+      actionPlay[indexPlay].classList.remove("ti-control-play");
+      musicCD[indexPlay].style.opacity = "1";
+      musicCD[indexPlay].style.animation = "rotateAround 3s linear infinite";
+
+      if (indexPre != -1 && indexPlay != indexPre) {
+        musicList[indexPre].style.backgroundColor = "rgba(255,255,255,.55)";
+        actionPlay[indexPre].classList.remove("ti-control-pause");
+        actionPlay[indexPre].classList.add("ti-control-play");
+        musicCD[indexPre].style.opacity = "0";
+        musicCD[indexPre].style.animation = "none";
+      }
+    }
+    function pauseSong(indexPlay) {
+      musicCD[indexPlay].style.opacity = "0";
+      actionPlay[indexPlay].classList.remove("ti-control-pause");
+      actionPlay[indexPlay].classList.add("ti-control-play");
+      musicList[indexPlay].style.backgroundColor = "rgba(255,255,255,.55)";
+      musicCD[indexPlay].style.animation = "none";
+      isPlay = false;
+      track.pause();
+    }
+    [...headings].forEach((item, index) => {
+      item.setAttribute("data-index", index);
+    });
+    [...actionPlay].forEach((item, index) => {
+      item.setAttribute("data-index", index);
+    });
+    let indexPre = -1;
+    let isClick = 0;
+    let currentIndex;
+    [...actionPlay].forEach((item, index) => {
+      item.onclick = function () {
+        currentIndex = Number(this.dataset.index);
+        if (indexPre != currentIndex) {
+          isPlay = false;
+          isClick = 0;
+        } else {
+          if (isClick == 0) {
+            isPlay = true;
+            isClick = 1;
+          } else {
+            isPlay = false;
+            isClick = 0;
+          }
+        }
+        justPlay(currentIndex, indexPre);
+        indexPre = currentIndex;
+      };
+    });
+    [...headings].forEach((item, index) => {
+      item.onclick = function () {
+        currentIndex = Number(this.dataset.index);
+        if (indexPre != currentIndex) {
+          isPlay = false;
+          isClick = 0;
+        } else {
+          if (isClick == 0) {
+            isPlay = true;
+            isClick = 1;
+          } else {
+            isPlay = false;
+            isClick = 0;
+          }
+        }
+        justPlay(currentIndex, indexPre);
+        indexPre = Number(currentIndex);
+      };
+    });
+    let nextIndex = 0;
+    track.ontimeupdate = function () {
+      if (track.currentTime === track.duration) {
+        if (currentIndex < songs.length - 1) {
+          pauseSong(currentIndex);
+          isClick = 1;
+          nextIndex = Number(currentIndex + 1);
+          playSong(nextIndex, currentIndex);
+          indexPre = Number(nextIndex);
+          currentIndex = Number(nextIndex);
+          isClick = 0;
+        } else if (currentIndex == songs.length - 1) {
+          pauseSong(currentIndex);
+          isClick = 1;
+        }
+      }
+    };
+  </script>
+  <script>
+    const btnWatch = document.querySelector(".btn-link");
+    const video = document.querySelector(".iframe-video");
+    btnWatch.onclick = function () {
+      video.style.zIndex = "1";
+      video.style.width = "1280px";
+    };
+  </script>
+  <script>
+    const secondTime = document.querySelector(".second-time");
+    const minuteTime = document.querySelector(".minute-time");
+    let secondIndex = 37;
+    let minuteIndex = 15;
+    function timeAuto() {
+      secondIndex--;
+      if (secondIndex == 0) {
+        minuteIndex--;
+        secondIndex = 60;
+      }
+      if (secondIndex < 10) secondTime.innerHTML = `0${secondIndex}`;
+      else secondTime.innerHTML = `${secondIndex}`;
+      minuteTime.innerHTML = `${minuteIndex}`;
+    }
+    setInterval(timeAuto, 1000);
+  </script>
+
+  <!-- Script Scroll -->
+  <script>
+      const gridItem = document.querySelectorAll('.grid-item');
+      let indexSc = 0;
+      let offSetY = 0;
+      window.onscroll = function () {
+        let curScroll = window.pageYOffset;
+          if(curScroll>330 &&curScroll<2300){
+              gridItem[0].style.transform = `translateY(${-curScroll/100}%)`
+              gridItem[1].style.transform = `translateY(${-curScroll/100}%)`
+              gridItem[2].style.transform = `translateY(${-curScroll/100}%)`
+              gridItem[3].style.transform = `translateY(${-curScroll/100}%)`
+              gridItem[4].style.transform = `translateY(${-curScroll/100}%)`
+              gridItem[5].style.transform = `translateY(${-curScroll/100}%)`
+          }
+          else if(curScroll>2300){
+              gridItem[0].style.transform = `translateY(0)`
+              gridItem[1].style.transform = `translateY(0)`
+              gridItem[2].style.transform = `translateY(0)`
+              gridItem[3].style.transform = `translateY(0)`
+              gridItem[4].style.transform = `translateY(0)`
+              gridItem[5].style.transform = `translateY(0)`
+          }
+      }
+    
+  </script>
+</html>
