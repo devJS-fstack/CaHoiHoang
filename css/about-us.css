@@ -431,7 +431,7 @@ body {
 .follow-list {
   display: flex;
   max-width: 1140px;
-  margin-right: auto;
+  margin-right: calc(11% + 10px);
   margin-left: auto;
   position: relative;
 }
@@ -485,7 +485,7 @@ body {
 /* footer img */
 
 .footer-link__img {
-  padding: 0px 65px 0px 65px;
+  padding: 0 50px;
   position: relative;
 }
 
@@ -513,8 +513,8 @@ body {
   transition: all 0.5s ease;
   border-radius: 5px;
   position: relative;
-  height: 175px !important;
-  width: 100%;
+  height: 160px !important;
+  width: 160px;
 }
 
 .img-link::after {
