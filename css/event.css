@@ -118,6 +118,10 @@ html {
   letter-spacing: 0.1rem;
 }
 
+.navgation-text:nth-child(5) {
+  color: rgba(56, 33, 74, 0.5) !important;
+}
+
 .navigation-iner {
   color: #3b1b52;
 }
@@ -141,8 +145,9 @@ html {
   align-items: center;
   height: 100%;
   margin-right: 0;
-  position: relative;
-  left: -50px;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 .header-control__icon {
@@ -290,8 +295,8 @@ html {
 .tour-calendar {
   position: relative;
   display: inline-block;
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   background: white;
   display: flex;
@@ -300,7 +305,7 @@ html {
   align-items: center;
   color: black;
   font-weight: 600;
-  font-size: 17px;
+  font-size: 15px;
 }
 .tour-des {
   position: absolute;
@@ -313,7 +318,7 @@ html {
   font-weight: bold;
 }
 .tour-location {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 1);
 }
 
 .footer {

@@ -107,10 +107,6 @@ html {
   height: 100%;
 }
 
-.navgation-text-tour {
-  color: rgba(56, 33, 74, 0.5) !important;
-}
-
 .navigation-link {
   display: flex;
   -webkit-box-align: center;
@@ -262,38 +258,42 @@ html {
 }
 
 .container-iner {
+  position: relative;
   background-color: rgba(255, 255, 255, 0.1);
+  width: min(690px, 80%);
   margin: 0% 15% 0% 15%;
-  padding: 52px 75px 75px 75px;
+  padding: 62px 70px 20px;
   border-radius: 6px 6px 6px 6px;
   font-size: 1.8rem;
   color: #fff;
   font-weight: 500;
+  overflow: hidden;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.1);
 }
 
 .container-item {
   display: flex;
-  align-items: center;
-  width: 100%;
-  margin-right: 45px;
-  margin-left: 0;
-  margin-top: 40px;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 40px;
   cursor: pointer;
 }
+/* .container-item:last-child {
+  margin-bottom: 0;
+} */
 
 .container-item__time {
-  position: relative;
-  left: -40px;
   font-weight: 600;
+  margin-right: 32px;
 }
 
 .container-item__text {
-  position: relative;
   top: 14px;
+  margin-right: auto;
 }
 
 .container-list {
-  margin-top: -35px;
 }
 
 .container-item__text .item__heading {
@@ -310,13 +310,11 @@ html {
 }
 
 .container-item__text .item__discription {
+  font-size: 16px;
   font-weight: 400;
 }
 
 .container-item__button {
-  position: relative;
-  left: 20%;
-  top: 12px;
   width: 145px;
   height: 40px;
   background-color: #fff;
@@ -331,7 +329,7 @@ html {
 }
 
 .container-item__button:hover {
-  box-shadow: 0 10px 25px 0 #fff;
+  box-shadow: 0 3px 18px 0 rgba(255, 255, 255, 0.8);
 }
 
 .footer {
@@ -404,6 +402,9 @@ html {
   position: relative;
 }
 
+.footer-link__img--iner {
+}
+
 .footer-link__img-list {
   display: flex;
   align-items: center;
@@ -440,6 +441,8 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -448,6 +451,7 @@ html {
   font-weight: 400;
   font-variant: normal;
   text-transform: none;
+  speak: none;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
   color: #fff;

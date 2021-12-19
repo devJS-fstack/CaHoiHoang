@@ -114,8 +114,8 @@
     </header>
     <div class="container">
       <section class="container-section1">
-        <div class="slides" style="background-image:url(./assets/img/sdf.png) ;">
-          <div class="slide">
+        <div class="slides">
+          <div class="slide" style="background-image:url(./assets/img/sdf.png)">
             <div class="container-content">
               <div class="container-title">New Album</div>
               <div class="container-discription">
@@ -1407,7 +1407,11 @@
       }
       if (secondIndex < 10) secondTime.innerHTML = `0${secondIndex}`;
       else secondTime.innerHTML = `${secondIndex}`;
-      minuteTime.innerHTML = `${minuteIndex}`;
+      if(minuteIndex>10){
+        minuteTime.innerHTML = `${minuteIndex}`;
+      }else {
+        minuteTime.innerHTML = `0${minuteIndex}`;
+      }
     }
     setInterval(timeAuto, 1000);
   </script>

@@ -283,7 +283,6 @@ body {
   height: 100%;
 }
 .slide {
-  background-image: url(/Project_CHH/source/assets/img/sdf.png);
   background-repeat: no-repeat;
   width: 100%;
   height: 100%;
@@ -339,7 +338,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 115%;
+  width: 100%;
 }
 
 .section1__bottom--heading {
@@ -427,12 +426,12 @@ body {
 }
 
 .volumn-slider {
-  width: 250px;
+  width: 230px;
   background-color: #38214a;
   height: 3px;
   position: relative;
   top: -6px;
-  left: 10px;
+  left: -5px;
   outline: none;
   color: #38214a;
   cursor: pointer;
@@ -495,7 +494,7 @@ body {
 }
 
 .content-column {
-  width: 1400px;
+  width: 1200px;
   margin: 100px auto;
 }
 

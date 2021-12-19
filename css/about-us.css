@@ -140,8 +140,8 @@ body {
   align-items: center;
   height: 100%;
   margin-right: 0;
-  position: relative;
-  left: -50px;
+  position: absolute;
+  right: 0;
 }
 
 .header-control__icon {
@@ -223,7 +223,6 @@ body {
 .background-img__item {
   height: 100%;
   width: 100%;
-  background-image: url(https://neobeat.qodeinteractive.com/wp-content/uploads/2020/03/About-me-title-img.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 5px;
@@ -232,7 +231,7 @@ body {
 .background-text {
   padding-bottom: 40px;
   height: 100%;
-  color: #f6f6f6;
+  color: #dfab53;
   font-size: 210px;
   text-align: center;
   display: flex;
