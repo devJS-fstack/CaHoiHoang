@@ -89,7 +89,7 @@ html {
 
 .header-navigation {
   margin-left: auto;
-  margin-right: auto;
+  margin-right: calc(30% - 5px);
   height: 100%;
 }
 

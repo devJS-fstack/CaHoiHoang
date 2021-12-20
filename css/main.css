@@ -89,7 +89,7 @@ body {
 
 .header-navigation {
   margin-left: auto;
-  margin-right: auto;
+  margin-right: calc(30% - 8px);
   height: 100%;
 }
 

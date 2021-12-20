@@ -67,7 +67,7 @@ body {
 .header-logo__wraper {
   position: absolute;
   top: 0;
-  left: 0;
+  left: calc(2% + 1px);
   height: 100%;
   display: inline-flex;
   -webkit-box-align: center;
@@ -91,7 +91,7 @@ body {
 
 .header-navigation {
   margin-left: auto;
-  margin-right: auto;
+  margin-right: calc(15% + 6px);
   height: 100%;
 }
 
@@ -102,7 +102,6 @@ body {
   align-items: center;
   height: 100%;
   white-space: nowrap;
-  left: calc(20% + 2px);
 }
 
 .navigation-item {

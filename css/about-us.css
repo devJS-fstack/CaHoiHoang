@@ -13,7 +13,7 @@ body {
   color: #5d516c;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
-  background-color: #f6f6f6;
+  background-color: #f8e7e5;
 }
 
 .header {
@@ -36,6 +36,16 @@ body {
 
 .slide-down {
   transform: translate3d(0, 0, 0);
+}
+
+.header {
+  background-color: #f8e7e5;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  height: 109px;
+  z-index: 100;
 }
 
 .header-iner {
@@ -88,7 +98,7 @@ body {
 
 .header-navigation {
   margin-left: auto;
-  margin-right: auto;
+  margin-right: calc(30% - 8px);
   height: 100%;
 }
 
@@ -99,7 +109,7 @@ body {
   align-items: center;
   height: 100%;
   white-space: nowrap;
-  left: calc(20% + 2px);
+  margin-left: 130px;
 }
 
 .navigation-item {
@@ -113,8 +123,12 @@ body {
   align-items: center;
   height: 100%;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: 0.1rem;
+}
+
+.navgation-text-home {
+  color: rgba(56, 33, 74, 0.5) !important;
 }
 
 .navigation-iner {
@@ -141,38 +155,39 @@ body {
   height: 100%;
   margin-right: 0;
   position: absolute;
+  top: 0;
   right: 0;
 }
 
 .header-control__icon {
-  margin: 0 0 0 12px;
-  display: inline-flex;
+  margin: 0 0 0 13px;
+  display: inline-block;
   line-height: 1;
-  position: relative;
 }
 
 .short-code {
-  font-size: 19px;
-  width: 4rem;
-  height: 4rem;
-  text-align: center;
+  font-size: 19px !important;
+  position: relative;
+  width: 2em;
+  height: 2em;
   display: flex;
+  vertical-align: top;
   align-items: center;
   justify-content: center;
-  padding: 4px 5px;
 }
 
 .control-link {
   color: #38214a;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   width: 100%;
 }
 
 .control-icon {
   font-size: 20px;
   left: 5px;
-  position: relative;
+  /* position: relative; */
 }
 
 .svg-circle {
@@ -231,7 +246,7 @@ body {
 .background-text {
   padding-bottom: 40px;
   height: 100%;
-  color: #dfab53;
+  color: #f8e7e5;
   font-size: 210px;
   text-align: center;
   display: flex;
