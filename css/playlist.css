@@ -1,0 +1,213 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #5d516c;
+  background-color: #f8e7e5;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container-list-music {
+  padding: 40px 0px 50px 0;
+  position: relative;
+}
+
+.container-list-music__iner {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.container-list-music-row {
+  width: 82%;
+  display: flex;
+  justify-content: center;
+}
+
+.container-list-music-column {
+  width: 100%;
+  position: relative;
+  min-height: 1px;
+  display: flex;
+}
+
+.container-list-music-column__iner {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  padding: 0px 0 30px 0;
+  margin-bottom: 49px;
+  background-color: rgba(255, 255, 255, 0.55);
+  border-radius: 5px;
+  box-shadow: 2px 7px 17.82px 0.18px rgb(228 155 148 / 20%);
+}
+
+.music-column__background--content {
+  position: relative;
+  top: 7px;
+}
+
+.music-column__background {
+  background-image: url("https://neobeat.qodeinteractive.com/wp-content/uploads/2020/04/artist-bg.jpg");
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 25px 50px;
+  margin-bottom: 30px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px 5px 0 0;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.music-column__background img {
+  flex-shrink: 0;
+  max-width: 125px;
+  margin-right: 25px;
+  border-radius: 100%;
+  position: relative;
+  left: 20%;
+}
+
+.music-column__background--content h4 {
+  margin: 0;
+  color: #fff;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.315789473684211em;
+  letter-spacing: -0.005em;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.music-column__background--content p {
+  margin: 0;
+  color: #fff;
+  line-height: 1.666666666666667em;
+}
+
+.music-track {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 12px 50px;
+  transition: 0.35s ease-out;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.music-cd {
+  position: absolute;
+  top: 15px;
+  left: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  opacity: 0;
+  transition: opacity 0.2s ease-out;
+}
+
+.music-cd {
+  font-size: 20px;
+}
+
+.music-heading {
+  display: block;
+  width: 100%;
+}
+
+.music-title {
+  margin: 0;
+  cursor: pointer;
+  font-family: inherit;
+  color: #38214a;
+  font-size: 16px;
+  line-height: 1.375em;
+  letter-spacing: -0.005em;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.music-action {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.track-length {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.action-dowload {
+  color: #5d516c;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  transition: color 0.2s ease-out;
+  cursor: pointer;
+  font-size: 22px;
+  margin: 0 0;
+}
+
+.action-play {
+  color: #5d516c;
+  margin-right: 0;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 22px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.action-play:hover {
+  color: #38214a;
+}
+
+.music-active {
+  background-color: #fff;
+}
+
+@keyframes rotateAround {
+  100% {
+    transform: rotate(360deg);
+  }
+}
