@@ -78,7 +78,7 @@ body {
   align-items: center;
   padding: 25px 50px;
   margin-bottom: 30px;
-  background-position: center;
+  background-position: inherit;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 5px 5px 0 0;
