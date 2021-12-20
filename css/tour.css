@@ -117,16 +117,24 @@ html {
   letter-spacing: 0.1rem;
 }
 
+.logo-header {
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+}
+
 .navigation-iner {
-  color: #3b1b52;
+  color: #fff;
 }
 
 .navigation-iner::after {
   content: "";
+  position: relative;
+  top: 3px;
   width: 0;
   height: 1px;
   display: block;
-  background-color: rgb(31, 29, 29);
+  background-color: #fff;
   transition: width 0.4s ease;
 }
 
@@ -163,7 +171,7 @@ html {
 }
 
 .control-link {
-  color: #38214a;
+  color: #fff;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -598,4 +606,58 @@ html {
   top: 3px;
   font-size: 15px;
   transition: 0.3s linear;
+}
+
+.container6 {
+  padding: 0px 0 0 0;
+  position: relative;
+  top: 50px;
+}
+
+.container6__content {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  top: -30px;
+  left: 24px;
+}
+
+.container6-title {
+  max-width: 500px;
+  text-align: center;
+}
+
+.container6-title h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 50px;
+  line-height: 1.113636363636364em;
+  letter-spacing: -0.005em;
+  margin: 25px 0;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.container6-title span {
+  width: 100%;
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  word-wrap: break-word;
+  letter-spacing: 0.7px;
+  line-height: 20px;
+  color: #fff;
+}
+
+.container8 {
+  position: relative;
+  top: 100px;
+}
+
+@font-face {
+  font-family: "SVN-Poppins";
+  src: url("/Project_CHH/source/assets/font/font-popins/SVN-Poppins-Regular.ttf")
+    format("ttf");
 }

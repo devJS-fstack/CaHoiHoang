@@ -83,6 +83,11 @@ body {
   height: 109px;
   max-height: 100%;
 }
+.logo-header {
+  font-weight: 700;
+  font-size: 30px;
+  color: var(--primary-color);
+}
 
 .header-logo--link img {
   width: 154px;

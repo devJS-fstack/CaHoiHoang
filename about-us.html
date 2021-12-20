@@ -12,6 +12,11 @@
     <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.4-web/css/all.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./assets/font/font-popins/PoppinsVN-400.woff2">
+    <link rel="stylesheet" href="./assets/font/font-popins/PoppinsVN-500.woff2">
+    <link rel="stylesheet" href="./assets/font/font-popins/PoppinsVN-600.woff2">
+    <link rel="stylesheet" href="./assets/font/font-popins/PoppinsVN-700.woff2">
+
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./assets/font/themify-icon/themify-icons.css">
     <link rel="stylesheet" href="./css/about-us.css">
@@ -22,7 +27,7 @@
             <div class="header-wraper">
                 <div class="header-logo__wraper">
                     <a href="index.html" class="header-logo--link">
-                        <img src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/04/Logo-dark.png" alt="">
+                       <span class = "logo-header">CaHoiHoang</span>
                     </a>
                 </div>
                 <nav class="header-navigation">
@@ -352,14 +357,15 @@
                 </ul>
             </div>
         </div>
-
+  
         <div class="footer-policy">
             <div class="footer-policy__iner">
                 <div class="footer-policy__heading">
-                    <img src="https://neobeat.qodeinteractive.com/wp-content/uploads/2020/04/Footer-logo-img.png" alt="">
+                  <span class="logo-header" style="color: #fff;">CaHoiHoang</span>
+                    
                 </div>
                 <div class="footer-policy__copy">
-                    © 2021 Qode Interactive, All Rights Reserved
+                    © 2021 No CopyRight 
                 </div>
             </div>
         </div>
@@ -393,7 +399,7 @@
     <script>
         const backBtn=document.querySelector('.back-to-top')
         window.addEventListener("scroll",() =>{
-            if(window.pageYOffset>2500){
+            if(window.pageYOffset>2700){
                 backBtn.style.color="#fff";
             }else{
                 backBtn.style.color="var(--primary-color)";

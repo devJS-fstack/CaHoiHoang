@@ -39,6 +39,12 @@ html {
   z-index: 100;
 }
 
+.logo-header {
+  font-weight: 700;
+  font-size: 30px;
+  color: var(--primary-color);
+}
+
 .header-iner {
   padding-left: 80px;
   padding-right: 80px;

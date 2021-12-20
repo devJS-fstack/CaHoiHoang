@@ -96,6 +96,12 @@ body {
   height: 29px;
 }
 
+.logo-header {
+  font-weight: 700;
+  font-size: 30px;
+  color: var(--primary-color);
+}
+
 .header-navigation {
   margin-left: auto;
   margin-right: calc(30% - 8px);
