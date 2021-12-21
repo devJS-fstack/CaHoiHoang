@@ -366,9 +366,9 @@ body {
   bottom: -100px;
   height: 250px;
   left: 0;
-  width: 1200px;
+  width: 100%;
   background-color: transparent;
-  margin: 0 65px;
+  padding: 0 65px;
 }
 
 .section1__avatar {
@@ -401,7 +401,6 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: calc(100% + 38px);
 }
 
 .section1__bottom--heading {
@@ -856,7 +855,7 @@ body {
   position: relative;
   background-color: rgba(255, 255, 255, 0.55);
   width: min(690px, 80%);
-  margin: 0% 15% 0% 15%;
+  margin: 0% 18% 0% 15%;
   padding: 62px 70px 20px;
   border-radius: 6px 6px 6px 6px;
   font-size: 1.8rem;
@@ -1003,7 +1002,6 @@ body {
   justify-content: center;
   position: relative;
   top: -30px;
-  left: 24px;
 }
 
 .container6-title {
